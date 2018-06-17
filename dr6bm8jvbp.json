@@ -1,0 +1,13 @@
+{
+    "firstName": "Mario",
+    "lastName": "Ramirez",
+    "preferredName": "Mario",
+    "email": "marioramirez@lewisu.edu",
+    "phoneNumber": "773-123-4567",
+    "city": "Burbank",
+    "state": "IL",
+    "zip": "60446",
+    "lat": "41.7468",
+    "lng": "-87.7607", 
+    "favoriteHobby": "Sports"
+}
