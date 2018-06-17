@@ -24,7 +24,7 @@ function loadJSON() {
     indexRequest2.send();
 
     var indexRequest3 = new XMLHttpRequest();
-    indexRequest3.open('GET', 'https://mustang-data-mr.azurewebsites.net/xuctuvsxeh.json');
+    indexRequest3.open('GET', 'https://mustang-data-mr.azurewebsites.net/m12lnrjp0p.json');
     indexRequest3.onload = function() {
         console.log(indexRequest3.responseText);
         document.getElementById("id-03").innerHTML = indexRequest3.responseText;
@@ -32,7 +32,7 @@ function loadJSON() {
     indexRequest3.send();
 
     var indexRequest4 = new XMLHttpRequest();
-    indexRequest4.open('GET', 'https://mustang-data-mr.azurewebsites.net/xuctuvsxeh.json');
+    indexRequest4.open('GET', 'https://mustang-data-mr.azurewebsites.net/m3zyag8tvk.json');
     indexRequest4.onload = function() {
         console.log(indexRequest4.responseText);
         var response = JSON.parse(indexRequest4.responseText);
@@ -42,7 +42,7 @@ function loadJSON() {
     indexRequest4.send();
 
     var indexRequest5 = new XMLHttpRequest();
-    indexRequest5.open('GET', 'https://mustang-data-mr.azurewebsites.net/xuctuvsxeh.json');
+    indexRequest5.open('GET', 'https://mustang-data-mr.azurewebsites.net/06fyycprsb.json');
     indexRequest5.onload = function() {
         console.log(indexRequest5.responseText);
         document.getElementById("id-05").innerHTML = indexRequest5.responseText;
@@ -72,7 +72,7 @@ function logContacts() {
 function loadContacts() {
     contactArray.length = 0;
     loadingContact = 0;
-    
+
     if (contactURLArray.length > loadingContact) {
         loadNextContact(contactURLArray[loadingContact]);
     }

@@ -1,0 +1,13 @@
+{
+    "firstName": "Brenda",
+    "lastName": "Momoa",
+    "preferredName": "Bre",
+    "email": "momo@yahoo,com",
+    "phoneNumber": "768-999-0345",
+    "city": "Honolulu",
+    "state": "HI",
+    "zip": "23456",
+    "lat": "11.7468",
+    "lng": "-34.7607", 
+    "favoriteHobby": "Surfing"
+}

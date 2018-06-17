@@ -1,0 +1,13 @@
+{
+    "firstName": "Jose",
+    "lastName": "Sanchez",
+    "preferredName": "Jo",
+    "email": "jos@hotmail.com",
+    "phoneNumber": "213-890-6754",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zip": "45609",
+    "lat": "34.7468",
+    "lng": "13.7607", 
+    "favoriteHobby": "Cooking"
+}

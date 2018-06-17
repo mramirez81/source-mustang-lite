@@ -1,0 +1,13 @@
+{
+    "firstName": "Joe",
+    "lastName": "Smith",
+    "preferredName": "Bud",
+    "email": "joe_bud@gmail,com",
+    "phoneNumber": "456-234-0129",
+    "city": "Memphis",
+    "state": "TN",
+    "zip": "78945",
+    "lat": "54.7468",
+    "lng": "-21.7607", 
+    "favoriteHobby": "Hunting"
+}
