@@ -51,14 +51,12 @@ function loadJSON() {
 }
 
 function loadIndex() {
-    // Load the Mustang index file.
     var indexRequest = new XMLHttpRequest();
-    indexRequest.open('GET', 'https://mustang-data-mr.azurewebsites.net/index.json');
+    indexRequest.open('GET', 'https://mustang-index.azurewebsites.net/index.json');
     indexRequest.onload = function() {
         console.log("Index JSON:" + indexRequest.responseText);
         document.getElementById("indexID").innerHTML = indexRequest.responseText;
         contactIndex = JSON.parse(indexRequest.responseText);
-        // Bugbug: Need to clear contactURLArray.
         for (i=0; i<contactIndex.length; i++) {
             contactURLArray.push(contactIndex[i].ContactURL);
         }
@@ -72,13 +70,9 @@ function logContacts() {
 }
 
 function loadContacts() {
-    // Clear the current contactArray.
     contactArray.length = 0;
     loadingContact = 0;
-
-    // Note that W3C documentation and my experimentation indicate that each XMLHttpRequest callback function must be a 
-    // unique instance of a function. A better implmentation would have had an array of callback functions instead of a 
-    // recursive call to load
+    
     if (contactURLArray.length > loadingContact) {
         loadNextContact(contactURLArray[loadingContact]);
     }
